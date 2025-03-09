@@ -1,0 +1,53 @@
+/*
+
+- Create a card UI similar to the image using HTML and CSS
+- It doesn't need to be an exact replica
+- You can use any name, photo, URL
+
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 32px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-content h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .avatar {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #545454;
+  }
+  
